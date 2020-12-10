@@ -4,7 +4,7 @@ import { AuthContext } from '../auth/AuthContext'
 export const SearchBox = () => {
     
     const { auth, logout } = useContext( AuthContext );
-    
+
     
     return (
         <div className="headind_srch">
